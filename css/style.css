@@ -8,10 +8,15 @@ header section footer{
 }
 /* header */
 header{
-    padding: 50px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+.header_div{
+    width: 100%;
+    margin: 50px 100px;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     column-gap: 50px;
 }
 .logo_link{
@@ -31,7 +36,6 @@ nav ul{
 .search_div{
     width: 222px;
     height: 56px;
-    margin-right: 50px;
     border-radius: 10px;
     border: 3px solid #758BFD;
     display: flex;
