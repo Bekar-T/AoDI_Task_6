@@ -1,0 +1,45 @@
+body{
+    background-color: #555;
+}
+header section footer{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+/* header */
+header{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+}
+.logo_link{
+    display: inline-block;
+}
+nav ul{
+    display: flex;
+    column-gap: 50px;
+    white-space: nowrap;
+}
+.nav_li a{
+    color: #758BFD;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+}
+.search_div{
+    width: 222px;
+    height: 56px;
+    margin-right: 50px;
+    border-radius: 10px;
+    border: 3px solid #758BFD;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.fa-magnifying-glass{
+    font-size: 32px;
+    color: #758BFD;
+    margin: 0 10px;
+}
