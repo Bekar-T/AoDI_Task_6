@@ -1,15 +1,10 @@
-body{
-    background-color: #555;
-}
-header section footer{
-    max-width: 1440px;
-    width: 100%;
-    margin: auto;
-}
 /* header */
 header{
     display: flex;
     justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
 }
 .header_div{
     width: 100%;
@@ -46,4 +41,50 @@ nav ul{
     font-size: 32px;
     color: #758BFD;
     margin: 0 10px;
+}
+
+/* section */
+section{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background: #DDEAF8;
+}
+.section_div_l1{
+    display: flex;
+    justify-content: center;
+    margin: 120px 6%;
+}
+.section_div_l2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section_div_l3{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 50px;
+    justify-content: center;
+}
+h3{
+    color: #27187F;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+.cards{
+    background: #FFF;
+    padding: 30px;
+    max-width: 400px;
+    border-radius: 10px;
+}
+.card_p{
+    margin-top: 30px;
+    color: #133B3A;
+    font-family: Ubuntu;
+    font-size: 20px;
 }
